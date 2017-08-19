@@ -46,8 +46,8 @@ logbook:
 sun:
 
 # Weather prediction
-sensor:
-  - platform: yr
+#sensor:
+#  - platform: yr
 
 # Text to speech
 tts:
