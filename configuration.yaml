@@ -69,6 +69,9 @@ nest:
   client_id: !secret nest_client_id
   client_secret: !secret nest_client_secret
 
+climate:
+  - platform: netatmo
+
 
 group: !include_dir_merge_named group
 device_tracker: !include_dir_merge_list device_tracker
@@ -77,5 +80,5 @@ automation: !include_dir_merge_list automation
 scene: !include_dir_merge_list scene
 switch: !include_dir_merge_list switch
 script: !include_dir_merge_named script
-input_boolean: !include_dir_merge_named input_boolean
+#input_boolean: !include_dir_merge_named input_boolean
 shell_command: !include_dir_merge_named shell_command
