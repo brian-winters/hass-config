@@ -1,5 +1,5 @@
 homeassistant:
-  name: Casa De Brian
+  name: Casa De Winters
   latitude: 33.077
   longitude: -97.0702
   elevation: 192
@@ -65,6 +65,9 @@ zwave:
   usb_path: /dev/ttyACM0
   network_key: "0xE6, 0xC3, 0x1E, 0xA7, 0xBC, 0xA2, 0xD4, 0x3D, 0x93, 0x0E, 0xB4, 0x80, 0x37, 0x59, 0x4D, 0xFC,"
 
+nest:
+  client_id: !secret nest_client_id
+  client_secret: !secret nest_client_secret
 
 
 group: !include_dir_merge_named group
