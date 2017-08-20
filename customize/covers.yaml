@@ -1,0 +1,6 @@
+cover.large_garage:
+  friendly_name: 'Garage'
+  icon: mdi:garage
+  emulated_hue: False
+  hidden: False
+  homebridge_cover_type: garage_door
