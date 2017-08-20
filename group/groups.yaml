@@ -17,8 +17,22 @@ media_players_card:
     - media_player.roku_3__1gu47r104061
     - media_player.roku_63261y044583
 
+thermostat_card:
+  name: Thermostats
+  entities:
+    - binary_sensor.downstairs_thermostat_fan
+    - binary_sensor.downstairs_thermostat_has_leaf
+    - binary_sensor.downstairs_thermostat_is_locked
+    - binary_sensor.downstairs_thermostat_is_using_emergency_heat
+    - binary_sensor.downstairs_thermostat_online
+    - binary_sensor.upstairs_thermostat_fan
+    - binary_sensor.upstairs_thermostat_has_leaf
+    - binary_sensor.upstairs_thermostat_is_locked
+    - binary_sensor.upstairs_thermostat_is_using_emergency_heat
+    - binary_sensor.upstairs_thermostat_online    
+
 cameras_view:
-  name: cameras
+  name: Cameras
   view: yes
   entities:
     - camera.back_porch
@@ -26,7 +40,7 @@ cameras_view:
     - camera.driveway
 
 media_players_view:
-  name: Media Players
+  name: Media
   view: yes
   entities:
     - media_player.bofficecc
