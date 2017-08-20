@@ -36,7 +36,7 @@ binary_sensor.downstairs_thermostat_is_using_emergency_heat:
   hidden: yes
 binary_sensor.downstairs_thermostat_online:
   friendly_name: "online"
-  icon: mdi: power
+  icon: mdi:power
 sensor.downstairs_thermostat_humidity:
   friendly_name: "humidity"
   icon: mdi:water
@@ -61,7 +61,7 @@ binary_sensor.upstairs_thermostat_is_using_emergency_heat:
   hidden: yes
 binary_sensor.upstairs_thermostat_online:
   friendly_name: "online"
-  icon: mdi: power
+  icon: mdi:power
 sensor.upstairs_thermostat_humidity:
   friendly_name: "humidity"
   icon: mdi:water
