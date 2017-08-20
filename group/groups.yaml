@@ -31,13 +31,17 @@ humidity_card:
     - sensor.downstairs_thermostat_humidity
     - sensor.upstairs_thermostat_humidity
 
+misc_card:
+  name: Misc.
+  entities:
+    - sun.sun
+
 environment_view:
   name: Environment
   view: yes
   entities:
     - group.temperature_card
     - group.humidity_card
-    - sun.sun
 
 cameras_view:
   name: Cameras
