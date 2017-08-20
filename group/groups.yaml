@@ -7,3 +7,16 @@ office_card:
    - sensor.aeotec_zw100_multisensor_6_relative_humidity
    - sensor.aeotec_zw100_multisensor_6_temperature
    - sensor.aeotec_zw100_multisensor_6_ultraviolet
+
+
+
+media_players_view
+  name: Media Players
+  view: yes
+  entities:
+    - media_player.bofficecc
+    - media_player.kitchen
+    - media_player.living_room_home
+    - media_player.roku_1gu47r104061
+    - media_player.roku_3__1gu47r104061
+    - media_player.roku_63261y044583
