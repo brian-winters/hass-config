@@ -1,18 +1,40 @@
+####  ChromeCast Devices  ######
+
 media_player.bofficecc:
   friendly_name: Office ChromeCast
   entity_picture: ''
+
+####  Sonos Devices  ######
+
 media_player.kitchen:
   friendly_name: Bathroom Sonos
   entity_picture: ''
-media_player.living_room_home:
-  friendly_name: Audio TBD
-  entity_picture: ''
-media_player.roku_1gu47r104061:
-  friendly_name: Roku tbd
-  entity_picture: ''
-media_player.roku_3__1gu47r104061:
-  friendly_name: Roku tbd2
-  entity_picture: ''
+
+
+####  Rokus  ######
+
 media_player.roku_63261y044583:
   friendly_name: Office Roku
   entity_picture: ''
+media_player.roku_1gn390041729:
+  friendly_name: Living Room Roku3
+  entity_picture: ''
+media_player.roku_1gu47r104061:
+  friendly_name: Bedroom Roku3
+  entity_picture: ''
+
+
+####  Auto-discover Trash  ######
+
+media_player.living_room_home:
+  friendly_name: Audio TBD
+  entity_picture: ''
+  hidden: yes
+media_player.roku_3__1gu47r104061:
+  friendly_name: Roku tbd2
+  entity_picture: ''
+  hidden: yes
+media_player.plex_web_chrome:
+  friendly_name: Ples Web
+  entity_picture: ''
+  hidden: yes
