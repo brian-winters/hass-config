@@ -10,7 +10,7 @@ office_card:
 
 
 
-media_players_view
+media_players_view:
   name: Media Players
   view: yes
   entities:
