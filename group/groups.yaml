@@ -35,8 +35,8 @@ environment_view:
   name: Environment
   view: yes
   entities:
-    - temperature_card
-    - humidity_card
+    - group.temperature_card
+    - group.humidity_card
 
 cameras_view:
   name: Cameras
@@ -50,9 +50,4 @@ media_players_view:
   name: Media
   view: yes
   entities:
-    - media_player.bofficecc
-    - media_player.kitchen
-    - media_player.living_room_home
-    - media_player.roku_1gu47r104061
-    - media_player.roku_3__1gu47r104061
-    - media_player.roku_63261y044583
+    - group.media_players_card
