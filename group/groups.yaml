@@ -1,3 +1,6 @@
+
+##########  Groups  ##########
+
 office_card:
   name: Office
   entities:
@@ -12,9 +15,8 @@ media_players_card:
   entities:
     - media_player.bofficecc
     - media_player.kitchen
-    - media_player.living_room_home
     - media_player.roku_1gu47r104061
-    - media_player.roku_3__1gu47r104061
+    - media_player.roku_1gn390041729
     - media_player.roku_63261y044583
 
 temperature_card:
@@ -36,6 +38,16 @@ misc_card:
   entities:
     - sun.sun
 
+
+zwave_card:
+  name: Zwave Devices
+  entities:
+    - zwave.aeotec_zw100_multisensor_6
+    - zwave.aeotec_zw090_zstick_gen5_us
+    - zwave.kitchen
+
+##########  VEIWS  ##########
+
 environment_view:
   name: Environment
   view: yes
@@ -44,6 +56,7 @@ environment_view:
     - group.humidity_card
     - climate.downstairs
     - climate.upstairs
+
 cameras_view:
   name: Cameras
   view: yes
@@ -57,3 +70,9 @@ media_players_view:
   view: yes
   entities:
     - group.media_players_card
+
+zwave_view:
+  name: Zwave
+  view: yes
+  entities:
+    - group.zwave_card
