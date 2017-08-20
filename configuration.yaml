@@ -60,9 +60,7 @@ netatmo:
   secret_key: !secret netatmo_secret_key
   username: !secret netatmo_username
   password: !secret netatmo_password
-
-climate:
-  - platform: netatmo
+  discovery: true
 
 cover:
   - platform: myq
