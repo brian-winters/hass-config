@@ -33,6 +33,7 @@ humidity_card:
 
 environment_view:
   name: Environment
+  view: yes
   entities:
     - temperature_card
     - humidity_card
