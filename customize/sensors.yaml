@@ -1,0 +1,23 @@
+
+
+sensor.aeotec_zw100_multisensor_6_burglar:
+  friendly_name: "Office Motion"
+  icon: mdi:security
+  hidden: yes
+sensor.aeotec_zw100_multisensor_6_luminance:
+  friendly_name: "Office Luminance"
+  icon: mdi:brightness-7
+sensor.aeotec_zw100_multisensor_6_relative_humidity:
+  friendly_name: "Office Humidity"
+  icon: mdi:water
+sensor.aeotec_zw100_multisensor_6_temperature:
+  friendly_name: "Office Temperature"
+  icon: mdi:thermometer
+sensor.aeotec_zw100_multisensor_6_ultraviolet:
+  friendly_name: "Office UV"
+sensor.aeotec_zw100_multisensor_6_alarm_level:
+  hidden: yes
+sensor.aeotec_zw100_multisensor_6_alarm_type:
+  hidden: yes
+sensor.aeotec_zw100_multisensor_6_sourcenodeid:
+  hidden: yes
