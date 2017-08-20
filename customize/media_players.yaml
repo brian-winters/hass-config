@@ -1,12 +1,18 @@
 media_player.bofficecc:
   friendly_name: Office ChromeCast
+  entity_picture: ''
 media_player.kitchen:
   friendly_name: Bathroom Sonos
+  entity_picture: ''
 media_player.living_room_home:
   friendly_name: Audio TBD
+  entity_picture: ''
 media_player.roku_1gu47r104061:
   friendly_name: Roku tbd
+  entity_picture: ''
 media_player.roku_3__1gu47r104061:
   friendly_name: Roku tbd2
+  entity_picture: ''
 media_player.roku_63261y044583:
   friendly_name: Office Roku
+  entity_picture: ''
