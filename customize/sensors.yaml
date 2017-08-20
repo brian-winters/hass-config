@@ -27,49 +27,59 @@ sensor.aeotec_zw100_multisensor_6_burglar:
 binary_sensor.downstairs_thermostat_fan:
   friendly_name: "Downstairs Fan"
   icon: mdi:fan
+  hidden: yes
 binary_sensor.downstairs_thermostat_has_leaf:
   friendly_name: "Downstairs Leaf"
   icon: mdi:leaf
+  hidden: yes
 binary_sensor.downstairs_thermostat_is_locked:
   hidden: yes
 binary_sensor.downstairs_thermostat_is_using_emergency_heat:
   hidden: yes
 binary_sensor.downstairs_thermostat_online:
-  friendly_name: "online"
+  friendly_name: "Downstairs Nest online"
   icon: mdi:power
-sensor.downstairs_thermostat_humidity:
-  friendly_name: "humidity"
-  icon: mdi:water
+  hidden: yes
 sensor.downstairs_thermostat_hvac_state:
-  friendly_name: "State"
+  friendly_name: "Downstairs Nest State"
+  hidden: yes
 sensor.downstairs_thermostat_target:
-  friendly_name: "Target Temp"
+  friendly_name: "Downstairs Nest Target Temp"
   icon: mdi:thermometer
+  hidden: yes
+sensor.downstairs_thermostat_humidity:
+  friendly_name: "Downstairs Nest Humidity"
+  icon: mdi:water
 sensor.downstairs_thermostat_temperature:
-  friendly_name: "Current Temp"
+  friendly_name: "Downstairs Nest Current Temp"
   icon: mdi:thermometer
 
 binary_sensor.upstairs_thermostat_fan:
-  friendly_name: "Upstairs Fan"
+  friendly_name: "Upstairs Nest Fan"
   icon: mdi:fan
+  hidden: yes
 binary_sensor.upstairs_thermostat_has_leaf:
-  friendly_name: "Upstairs Leaf"
+  friendly_name: "Upstairs Nest Leaf"
   icon: mdi:leaf
+  hidden: yes
 binary_sensor.upstairs_thermostat_is_locked:
   hidden: yes
 binary_sensor.upstairs_thermostat_is_using_emergency_heat:
   hidden: yes
 binary_sensor.upstairs_thermostat_online:
-  friendly_name: "online"
+  friendly_name: "Upstairs Nest online"
   icon: mdi:power
-sensor.upstairs_thermostat_humidity:
-  friendly_name: "humidity"
-  icon: mdi:water
+  hidden: yes
 sensor.upstairs_thermostat_hvac_state:
-  friendly_name: "State"
+  friendly_name: "Upstairs Nest State"
+  hidden: yes
 sensor.upstairs_thermostat_target:
-  friendly_name: "Target Temp"
+  friendly_name: "Upstairs Nest Target Temp"
   icon: mdi:thermometer
+  hidden: yes
 sensor.upstairs_thermostat_temperature:
-  friendly_name: "Current Temp"
+  friendly_name: "Upstairs Nest Current Temp"
   icon: mdi:thermometer
+sensor.upstairs_thermostat_humidity:
+  friendly_name: "Upstairs Nest Humidity"
+  icon: mdi:water
