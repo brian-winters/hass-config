@@ -1,0 +1,9 @@
+office_card:
+  name: Office
+  entities:
+   - media_player.bofficecc
+   - binary_sensor.aeotec_zw100_multisensor_6_sensor
+   - sensor.aeotec_zw100_multisensor_6_luminance
+   - sensor.aeotec_zw100_multisensor_6_relative_humidity
+   - sensor.aeotec_zw100_multisensor_6_temperature
+   - sensor.aeotec_zw100_multisensor_6_ultraviolet
