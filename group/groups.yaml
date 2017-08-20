@@ -42,7 +42,8 @@ environment_view:
   entities:
     - group.temperature_card
     - group.humidity_card
-
+    - climate.downstairs
+    - climate.upstairs
 cameras_view:
   name: Cameras
   view: yes
