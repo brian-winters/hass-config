@@ -54,7 +54,7 @@ sensor.downstairs_thermostat_temperature:
   friendly_name: "Downstairs Nest Current Temp"
   icon: mdi:thermometer
 sensor.downstairs_thermostat_operation_mode:
-  hidden:yes
+  hidden: yes
 
 binary_sensor.upstairs_thermostat_fan:
   friendly_name: "Upstairs Nest Fan"
@@ -69,7 +69,7 @@ binary_sensor.upstairs_thermostat_is_locked:
 binary_sensor.upstairs_thermostat_is_using_emergency_heat:
   hidden: yes
 sensor.upstairs_thermostat_operation_mode:
-  hidden:yes
+  hidden: yes
 binary_sensor.upstairs_thermostat_online:
   friendly_name: "Upstairs Nest online"
   icon: mdi:power
