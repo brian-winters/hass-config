@@ -17,8 +17,7 @@ groups:
 
 - name: Lights
   entities:
-    - light.hall_1
-    - light.hall_2
+    - switch.kitchen_switch
   states:
     - state: 'on'
       class: 'light-on'
