@@ -27,7 +27,7 @@ history:
 logbook:
 sun:
 ios:
-  
+
 # Weather prediction
 #sensor:
 #  - platform: yr
@@ -69,6 +69,12 @@ cover:
     password: !secret myq_password
     type: chamberlain
 
+panel_custom:
+  - name: floorplan
+    sidebar_title: Floorplan
+    sidebar_icon: mdi:home
+    url_path: floorplan
+    config: !include floorplan.yaml
 
 group: !include_dir_merge_named group
 device_tracker: !include_dir_merge_list device_tracker
