@@ -34,7 +34,7 @@ ios:
 # Text to speech
 tts:
   - platform: google
-    language" 'en'
+    language: 'en'
   #- platform: amazon_polly
   #  aws_access_key_id: !secret polly_access_key_id
   #  aws_secret_access_key: !secret polly_secret_key
