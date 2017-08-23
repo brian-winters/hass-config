@@ -141,3 +141,29 @@ svg, svg * {
 .squeezebox-on {
   fill: #2baaa6 !important;
 }
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
+
+#fan\.living_room_fan_level, #fan\.master_bedroom_fan_level {
+  transform-origin: center;
+}
+
+.fan-on {
+  fill: #ff8a65 !important;
+  -webkit-animation: rotation 2s infinite linear;
+}
+
+.fan-off {
+  fill: #424242 !important;
+}
+
+body {
+    background-color: yellow;
+}

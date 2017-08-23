@@ -22,13 +22,15 @@ groups:
   text_template: '${entity.state ? entity.state : "undefined"}'
   class_template: 'return "static-text";'
 
+# TEMPERATURE SENSORS #
 - name: temp_office
   entities:
     - sensor.aeotec_zw100_multisensor_6_temperature
+    - sensor.downstairs_thermostat_temperature
   text_template: '${entity.state ? Math.ceil(entity.state) + "°": "undefined"}'
   class_template: 'return "static-temp";'
 
-
+# LIGHTS #
 - name: Lights
   entities:
     - switch.kitchen_switch
@@ -39,3 +41,13 @@ groups:
       class: 'light-off'
   action:
     service: toggle
+
+# CAMERAS #
+- name: Cameras
+  entities:
+    - camera.back_porch
+    - camera.driveway
+    - camera.front_drive
+  states:
+    - state: 'idle'
+      class: 'camera-idle'
