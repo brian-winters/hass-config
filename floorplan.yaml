@@ -23,7 +23,7 @@ groups:
   class_template: 'return "static-text";'
 
 # TEMPERATURE SENSORS #
-- name: temp_office
+- name: temperatures
   entities:
     - sensor.aeotec_zw100_multisensor_6_temperature
     - sensor.downstairs_thermostat_temperature
