@@ -627,25 +627,24 @@
        inkscape:connector-curvature="0"
        style="display:inline;stroke-width:1.08169889"
        inkscape:label="#path5972-0" />
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:12.69999981px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="611.86902"
-       y="381.91571"
-       id="sensor.downstairs_thermostat_temperature"
-       inkscape:label="#text5958"><tspan
-         sodipodi:role="line"
-         id="tspan5956-2"
-         x="611.86902"
-         y="381.91571"
-         style="font-size:12.69999981px;stroke-width:0.26458332">99</tspan></text>
     <rect
-       style="opacity:0.037;fill:#b3b3b3;fill-opacity:1;stroke-width:0.32418337"
+       style="opacity:0;fill:#b3b3b3;fill-opacity:1;stroke-width:0.32418337"
        id="switch.kitchen_switch"
        width="147.38321"
        height="144.89919"
        x="761.40466"
        y="257.8761"
        inkscape:label="#rect6024" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:12.69999981px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="616.1012"
+       y="382.58752"
+       id="text6028"><tspan
+         sodipodi:role="line"
+         id="tspan6026"
+         x="616.1012"
+         y="382.58752"
+         style="font-size:12.69999981px;stroke-width:0.26458332">99</tspan></text>
   </g>
 </svg>
