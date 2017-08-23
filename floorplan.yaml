@@ -9,11 +9,25 @@ date_format: DD-MMM-YYYY   # Date format to use in hover-over text
 
 groups:
 
+# DATE & TIME & WEATHER #
+- name: Date
+  entities:
+    - sensor.date
+  text_template: '${entity.state ? entity.state : "undefined"}'
+  class_template: 'return "static-text";'
+
+- name: Time
+  entities:
+    - sensor.floorplan_time
+  text_template: '${entity.state ? entity.state : "undefined"}'
+  class_template: 'return "static-text";'
+
 - name: temp_office
   entities:
     - sensor.aeotec_zw100_multisensor_6_temperature
   text_template: '${entity.state ? Math.ceil(entity.state) + "°": "undefined"}'
   class_template: 'return "static-temp";'
+
 
 - name: Lights
   entities:
