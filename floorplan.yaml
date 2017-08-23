@@ -18,7 +18,7 @@ groups:
 
 - name: Time
   entities:
-    - sensor.floorplan_time
+    - sensor.time
   text_template: '${entity.state ? entity.state : "undefined"}'
   class_template: 'return "static-text";'
 
