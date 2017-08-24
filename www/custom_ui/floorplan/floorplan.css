@@ -115,7 +115,7 @@
 svg, svg * {
   vector-effect: non-scaling-stroke !important;
   pointer-events: all !important;
-  background-color: #116466;
+  background-color: #fafafa;
 }
 
 /* Hover over */
