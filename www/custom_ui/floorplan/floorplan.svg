@@ -319,9 +319,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.36470588"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70000002"
-     inkscape:cx="192.486"
-     inkscape:cy="1704.3999"
+     inkscape:zoom="2.8000001"
+     inkscape:cx="2653.974"
+     inkscape:cy="180.29089"
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:window-width="3440"
@@ -333,7 +333,7 @@
      units="px"
      inkscape:measure-start="0,0"
      inkscape:measure-end="0,0"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="layer2"
      showguides="false">
     <inkscape:grid
        type="xygrid"
@@ -583,20 +583,14 @@
          y="565.09631"
          style="font-size:13.01381969px;stroke-width:0.2711212">99</tspan></text>
     <path
-       id="camera.driveway"
-       d="m 901.2525,28.338294 v 3.703983 a 1.1609528,1.0582792 0 0 0 1.16098,1.058273 h 13.93144 a 1.1609528,1.0582792 0 0 0 1.16093,-1.058273 V 21.459481 a 1.1609528,1.0582792 0 0 0 -1.16093,-1.058273 h -13.93144 a 1.1609528,1.0582792 0 0 0 -1.16098,1.058273 v 3.703983 l -4.6438,-4.233125 v 11.64108 z"
-       inkscape:connector-curvature="0"
-       style="stroke-width:1.10842788"
-       inkscape:label="#path5972" />
-    <path
        id="camera.back_porch"
-       d="m 667.68072,286.18211 v 3.70398 a 1.1609528,1.0582792 0 0 0 1.16097,1.05827 h 13.93144 a 1.1609528,1.0582792 0 0 0 1.16094,-1.05827 V 279.3033 a 1.1609528,1.0582792 0 0 0 -1.16094,-1.05828 h -13.93144 a 1.1609528,1.0582792 0 0 0 -1.16097,1.05828 v 3.70398 l -4.64381,-4.23313 v 11.64108 z"
+       d="m 648.63385,294.31695 v 5.2654 a 2.0354734,1.5043993 0 0 0 2.03551,1.50439 h 24.42569 a 2.0354734,1.5043993 0 0 0 2.03545,-1.50439 v -15.044 a 2.0354734,1.5043993 0 0 0 -2.03545,-1.50439 h -24.42569 a 2.0354734,1.5043993 0 0 0 -2.03551,1.50439 v 5.2654 l -8.14189,-6.01761 v 16.54841 z"
        inkscape:connector-curvature="0"
-       style="display:inline;stroke-width:1.10842788"
+       style="display:inline;stroke-width:1.74990439"
        inkscape:label="#path5972-4" />
     <path
        id="camera.front_drive"
-       d="m 749.05346,649.17694 h 3.61682 a 1.0333757,1.188931 0 0 0 1.03338,-1.18896 v -14.26717 a 1.0333757,1.188931 0 0 0 -1.03338,-1.18892 h -10.33376 a 1.0333757,1.188931 0 0 0 -1.03337,1.18892 v 14.26717 a 1.0333757,1.188931 0 0 0 1.03337,1.18896 h 3.61682 l -4.1335,4.7557 h 11.36713 z"
+       d="m 745.84066,648.32649 h 3.61682 a 1.0333757,1.188931 0 0 0 1.03338,-1.18896 v -14.26717 a 1.0333757,1.188931 0 0 0 -1.03338,-1.18892 h -10.33376 a 1.0333757,1.188931 0 0 0 -1.03337,1.18892 v 14.26717 a 1.0333757,1.188931 0 0 0 1.03337,1.18896 h 3.61682 l -4.1335,4.7557 h 11.36713 z"
        inkscape:connector-curvature="0"
        style="display:inline;stroke-width:1.10842788"
        inkscape:label="#path5972-0" />
@@ -1156,5 +1150,49 @@
          inkscape:connector-curvature="0"
          style="stroke-width:0.70084172" />
     </g>
+    <g
+       id="g7569"
+       transform="matrix(0.26458333,0,0,0.26458333,343.11903,94.978519)">
+      <g
+         id="g7551"
+         transform="translate(0,-952.36218)">
+        <path
+           id="path7549"
+           transform="translate(0,952.36218)"
+           d="m 14,13 c -2.698241,0 -6,2.13002 -6,5 v 37 l 52,30 c 1.960377,1.047118 4.256194,-0.01753 5.362794,-2.003247 L 82,56 c 1.594778,-2.530174 0.40962,-5.034135 -1,-6 L 17.25,13.78125 C 16.193449,13.24998 15.115369,13 14,13 Z M 83.5625,61.3125 70.96875,81.5625 80,87 92,66 Z M 36,75.71875 V 85 H 8 c -1.0567309,0 -1.996988,1.0602 -2,2 -0.00303,0.9458 0.9432691,2 2,2 h 30 c 1.047169,-1e-4 1.999895,-0.9528 2,-2 v -8.96875 c -1.347848,-0.777939 -2.646077,-1.531908 -4,-2.3125 z"
+           style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:Sans;-inkscape-font-specification:Sans;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;baseline-shift:baseline;text-anchor:start;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:4;marker:none;enable-background:accumulate"
+           inkscape:connector-curvature="0" />
+      </g>
+      <text
+         id="text7553"
+         font-weight="bold"
+         font-size="5px"
+         y="115"
+         x="0"
+         style="font-weight:bold;font-size:5px;font-family:'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif;fill:#000000">Created by romzicon</text>
+      <text
+         id="text7555"
+         font-weight="bold"
+         font-size="5px"
+         y="120"
+         x="0"
+         style="font-weight:bold;font-size:5px;font-family:'Helvetica Neue', Helvetica, Arial-Unicode, Arial, Sans-serif;fill:#000000">from the Noun Project</text>
+    </g>
+    <g
+       id="g7615"
+       transform="matrix(0.43161579,0,0,0.47253288,463.65151,103.95667)" />
+    <path
+       id="camera.back_porch-0"
+       d="m 884.87022,27.278642 v 5.265401 a 2.0354734,1.5043993 0 0 0 2.03551,1.50439 h 24.42569 a 2.0354734,1.5043993 0 0 0 2.03545,-1.50439 V 17.500042 a 2.0354734,1.5043993 0 0 0 -2.03545,-1.50439 h -24.42569 a 2.0354734,1.5043993 0 0 0 -2.03551,1.50439 v 5.2654 l -8.14189,-6.01761 v 16.548411 z"
+       inkscape:connector-curvature="0"
+       style="display:inline;stroke-width:1.74990439"
+       inkscape:label="#path5972-4" />
+    <rect
+       style="opacity:0;fill:#253531;fill-opacity:0.6681716;stroke-width:0.29027796"
+       id="rect7638"
+       width="41.117485"
+       height="35.979729"
+       x="722.77936"
+       y="624.53571" />
   </g>
 </svg>
