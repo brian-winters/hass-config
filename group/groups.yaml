@@ -48,6 +48,8 @@ misc_card:
   name: Misc.
   entities:
     - sun.sun
+    - sensor.time
+    - sensor.date
 
 
 zwave_card:
@@ -68,6 +70,22 @@ environment_view:
     - group.humidity_card
     - climate.downstairs
     - climate.upstairs
+
+office_view:
+  name: Office
+  view: yes
+  entities:
+    - group.office_card
+    - media_player.bofficecc
+    - media_player.roku_63261y044583
+
+bedroom_view:
+  name: Bedroom
+  view: yes
+  entities:
+    - group.bedroom_card
+    - media_player.roku_1gu47r104061
+
 
 cameras_view:
   name: Cameras
