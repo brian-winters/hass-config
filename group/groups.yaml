@@ -10,6 +10,15 @@ office_card:
    - sensor.aeotec_zw100_multisensor_6_temperature
    - sensor.aeotec_zw100_multisensor_6_ultraviolet
 
+bedroom_card:
+  name: Bedroom
+  entities:
+   - binary_sensor.aeotec_zw100_multisensor_6_sensor_2
+   - sensor.aeotec_zw100_multisensor_6_luminance_2
+   - sensor.aeotec_zw100_multisensor_6_relative_humidity_2
+   - sensor.aeotec_zw100_multisensor_6_temperature_2
+   - sensor.aeotec_zw100_multisensor_6_ultraviolet_2
+
 media_players_card:
   name: Media Players
   entities:
@@ -25,6 +34,7 @@ temperature_card:
     - sensor.aeotec_zw100_multisensor_6_temperature
     - sensor.downstairs_thermostat_temperature
     - sensor.upstairs_thermostat_temperature
+    - sensor.aeotec_zw100_multisensor_6_temperature_2
 
 humidity_card:
   name: Humidity Readings
@@ -32,6 +42,7 @@ humidity_card:
     - sensor.aeotec_zw100_multisensor_6_relative_humidity
     - sensor.downstairs_thermostat_humidity
     - sensor.upstairs_thermostat_humidity
+    - sensor.aeotec_zw100_multisensor_6_relative_humidity_2
 
 misc_card:
   name: Misc.
@@ -43,6 +54,7 @@ zwave_card:
   name: Zwave Devices
   entities:
     - zwave.aeotec_zw100_multisensor_6
+    - zwave.aeotec_zw100_multisensor_6_2
     - zwave.aeotec_zw090_zstick_gen5_us
     - zwave.kitchen
 
