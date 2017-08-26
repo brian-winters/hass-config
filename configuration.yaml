@@ -79,6 +79,10 @@ panel_custom:
     url_path: floorplan
     config: !include floorplan.yaml
 
+light:
+  - platform: flux_led
+    automatic_add: True
+
 group: !include_dir_merge_named group
 device_tracker: !include_dir_merge_list device_tracker
 sensor: !include_dir_merge_list sensor
