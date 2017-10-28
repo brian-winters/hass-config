@@ -320,7 +320,7 @@
      inkscape:pageopacity="0.36470588"
      inkscape:pageshadow="2"
      inkscape:zoom="0.35000001"
-     inkscape:cx="3378.6471"
+     inkscape:cx="2366.2602"
      inkscape:cy="1091.1847"
      inkscape:document-units="mm"
      showgrid="false"
@@ -333,7 +333,7 @@
      units="px"
      inkscape:measure-start="0,0"
      inkscape:measure-end="0,0"
-     inkscape:current-layer="g7708"
+     inkscape:current-layer="layer1"
      showguides="false">
     <inkscape:grid
        type="xygrid"
@@ -392,7 +392,8 @@
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12.65934086px;line-height:1.25;font-family:Roboto;-inkscape-font-specification:'Roboto, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;opacity:1;fill:#424242;fill-opacity:1;stroke:none;stroke-width:0.26637149"
        x="-156.90401"
        y="3.2626293"
-       id="sensor.date_long"><tspan
+       id="sensor.date"
+       inkscape:label="#sensor.date_long"><tspan
          sodipodi:role="line"
          id="tspan1722-9-3"
          x="-156.90401"
